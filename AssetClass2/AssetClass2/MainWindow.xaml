@@ -1,0 +1,28 @@
+﻿<Window x:Class="AssetClass2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AssetClass2"
+        mc:Ignorable="d"
+        Title="Asset Class Analyzer" Height="450" Width="800">
+    <Grid>
+        <!-- Input -->
+        <ComboBox Name="IndexDropDown" HorizontalAlignment="Left" Height="25" Margin="55,114,0,0" VerticalAlignment="Top" Width="165"/>
+        <ComboBox Name="YearDropDown" HorizontalAlignment="Left" Height="25" Margin="330,114,0,0" VerticalAlignment="Top" Width="115"/>
+        <!-- Output -->
+        <TextBox Name="Lowest1000" HorizontalAlignment="Left" Height="35" Margin="65,264,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="155"/>
+        <TextBox Name="Mean1000" HorizontalAlignment="Left" Height="35" Margin="330,264,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="155"/>
+        <TextBox Name="Highest1000" HorizontalAlignment="Left" Height="35" Margin="570,264,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="155"/>
+        <!-- Statements -->
+        <TextBlock Name="Overall1000Stmt" HorizontalAlignment="Left" Height="30" Margin="55,174,0,0" TextWrapping="Wrap" Text="This is what a $1,000 investment would be after the number of years you chose given the:" VerticalAlignment="Top" Width="700"/>
+        <TextBlock Name="Lowest1000Stmt" HorizontalAlignment="Left" Height="25" Margin="65,234,0,0" TextWrapping="Wrap" Text="Lowest Average Rolling Return" VerticalAlignment="Top" Width="170"/>
+        <TextBlock Name="Mean1000Stmt" HorizontalAlignment="Left" Margin="330,242,0,0" TextWrapping="Wrap" Text="Mean Average Rolling Return" VerticalAlignment="Top" Height="20" Width="172"/>
+        <TextBlock Name="Highest1000Stmt" HorizontalAlignment="Left" Height="25" Margin="570,234,0,0" TextWrapping="Wrap" Text="Highest Average Rolling Return" VerticalAlignment="Top" Width="175"/>
+        <TextBlock Name="ChooseIndexStmt" HorizontalAlignment="Left" Height="30" Margin="60,79,0,0" TextWrapping="Wrap" Text="Choose an Index" VerticalAlignment="Top" Width="160"/>
+        <TextBlock Name="HowManyYearStmt" HorizontalAlignment="Center" Height="15" Margin="0,79,0,0" TextWrapping="Wrap" Text="How Many Years" VerticalAlignment="Top" Width="140"/>
+
+
+
+    </Grid>
+</Window>
